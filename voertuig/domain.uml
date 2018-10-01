@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>domain</OriginalElement>
+  <nodes>
+    <node x="470.5" y="80.0">domain.ElektrischeMotor</node>
+    <node x="94.0" y="160.0">domain.Fiets</node>
+    <node x="0.0" y="160.0">domain.Auto</node>
+    <node x="196.5" y="80.0">domain.BenzineMotor</node>
+    <node x="338.5" y="80.0">domain.DieselMotor</node>
+    <node x="186.0" y="160.0">domain.Brommer</node>
+    <node x="203.0" y="0.0">domain.MotorSoort</node>
+    <node x="83.5" y="80.0">domain.Voertuig</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="domain.Auto" target="domain.Voertuig">
+      <point x="-18.5" y="-15.0" />
+      <point x="18.5" y="130.0" />
+      <point x="91.25" y="130.0" />
+      <point x="-38.75" y="15.0" />
+    </edge>
+    <edge source="domain.DieselMotor" target="domain.MotorSoort">
+      <point x="0.0" y="-15.0" />
+      <point x="394.5" y="60.0" />
+      <point x="279.29999999999995" y="60.0" />
+      <point x="21.799999999999955" y="15.0" />
+    </edge>
+    <edge source="domain.ElektrischeMotor" target="domain.MotorSoort">
+      <point x="0.0" y="-15.0" />
+      <point x="539.0" y="50.0" />
+      <point x="301.09999999999997" y="50.0" />
+      <point x="43.599999999999966" y="15.0" />
+    </edge>
+    <edge source="domain.Fiets" target="domain.Voertuig">
+      <point x="18.0" y="-15.0" />
+      <point x="148.0" y="140.0" />
+      <point x="137.75" y="140.0" />
+      <point x="7.75" y="15.0" />
+    </edge>
+    <edge source="domain.BenzineMotor" target="domain.MotorSoort">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="domain.Voertuig" target="domain.MotorSoort">
+      <point x="-23.25" y="-15.0" />
+      <point x="106.75" y="50.0" />
+      <point x="213.9" y="50.0" />
+      <point x="-43.599999999999994" y="15.0" />
+    </edge>
+    <edge source="domain.Brommer" target="domain.Voertuig">
+      <point x="24.5" y="-15.0" />
+      <point x="259.5" y="130.0" />
+      <point x="168.75" y="130.0" />
+      <point x="38.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="469.5" y="258.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
